@@ -1,0 +1,156 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="26"
+9-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00030000" />
+12-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:3-52
+12-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:17-49
+13    <uses-feature
+13-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-91
+14        android:name="android.hardware.vulkan.version"
+14-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:17-63
+15        android:required="false" />
+15-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:64-88
+16
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-65
+17-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:20-62
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-63
+18-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:20-60
+19
+20    <uses-feature
+20-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-83
+21        android:name="android.hardware.camera"
+21-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:17-55
+22        android:required="false" />
+22-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:56-80
+23    <uses-feature
+23-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-93
+24        android:name="android.hardware.camera.autofocus"
+24-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:17-65
+25        android:required="false" />
+25-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:66-90
+26    <uses-feature
+26-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-89
+27        android:name="android.hardware.camera.front"
+27-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-61
+28        android:required="false" />
+28-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:62-86
+29    <uses-feature
+29-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-88
+30        android:name="android.hardware.touchscreen"
+30-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:17-60
+31        android:required="false" />
+31-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:61-85
+32    <uses-feature
+32-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-99
+33        android:name="android.hardware.touchscreen.multitouch"
+33-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:17-71
+34        android:required="false" />
+34-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:72-96
+35    <uses-feature
+35-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-108
+36        android:name="android.hardware.touchscreen.multitouch.distinct"
+36-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:17-80
+37        android:required="false" />
+37-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:81-105
+38
+39    <application android:extractNativeLibs="true" >
+39-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-19:17
+39-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+40        <activity
+40-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-11:16
+41            android:name="com.unity3d.player.UnityPlayerActivity"
+41-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+42            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+42-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:188-369
+43            android:hardwareAccelerated="false"
+43-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:405-440
+44            android:launchMode="singleTask"
+44-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:156-187
+45            android:resizeableActivity="false"
+45-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:370-404
+46            android:screenOrientation="reverseLandscape"
+46-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-155
+47            android:theme="@style/UnityThemeSelector" >
+47-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+48            <intent-filter>
+48-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
+49                <action android:name="android.intent.action.MAIN" />
+49-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+49-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+51-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+52            </intent-filter>
+53
+54            <meta-data
+54-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
+55                android:name="unityplayer.UnityActivity"
+55-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
+56                android:value="true" />
+56-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
+57            <meta-data
+57-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
+58                android:name="android.notch_support"
+58-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
+59                android:value="true" />
+59-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
+60        </activity>
+61
+62        <meta-data
+62-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-69
+63            android:name="unity.splash-mode"
+63-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-48
+64            android:value="0" />
+64-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:49-66
+65        <meta-data
+65-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-74
+66            android:name="unity.splash-enable"
+66-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-50
+67            android:value="True" />
+67-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:51-71
+68        <meta-data
+68-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-78
+69            android:name="unity.launch-fullscreen"
+69-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-54
+70            android:value="True" />
+70-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:55-75
+71        <meta-data
+71-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-84
+72            android:name="unity.allow-resizable-window"
+72-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-59
+73            android:value="False" />
+73-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:60-81
+74        <meta-data
+74-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-81
+75            android:name="notch.config"
+75-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-43
+76            android:value="portrait|landscape" />
+76-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:44-78
+77        <meta-data
+77-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-84
+78            android:name="unity.auto-report-fully-drawn"
+78-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-60
+79            android:value="true" />
+79-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:61-81
+80        <meta-data
+80-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-77
+81            android:name="com.google.ar.core"
+81-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-49
+82            android:value="optional" />
+82-->C:\Users\kzzazzk\Documentos\AngryBirdsAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:50-74
+83    </application>
+84
+85</manifest>

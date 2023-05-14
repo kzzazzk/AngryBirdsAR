@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "packages": {
+    "com.ptc.vuforia.engine": {
+      "tarball": {
+        "hash": "64a4bf61052d",
+        "mtime": 1684053194106,
+        "size": 147494112,
+        "localPath": "C:\\Users\\kzzazzk\\Documentos\\AngryBirdsAR\\Packages\\com.ptc.vuforia.engine-10.14.4.tgz"
+      }
+    }
+  }
+}

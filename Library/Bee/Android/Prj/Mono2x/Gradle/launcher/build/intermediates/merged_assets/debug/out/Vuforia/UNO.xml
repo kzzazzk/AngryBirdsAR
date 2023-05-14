@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="SquareTowerCard" size="725.000000 1102.275757" />
+    <ImageTarget name="RectangleTowerCard" size="725.000000 1119.000000" />
+  </Tracking>
+</QCARConfig>
