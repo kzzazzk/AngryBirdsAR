@@ -5,13 +5,14 @@ using UnityEngine;
 public class GameBehaviour : MonoBehaviour
 {
     public AudioSource audioSource;
-    public static float winConditionPercentage;
+    public static float winConditionPercentage = 90.00f;
     public GameObject gameScene, menuScene, winningScene, settingsScene, creditsScene, sceneBackground, backButton;
     public static float demolitionPercentage;
     public static int fallenBricks = 0;
     public static bool finishedContruction = false;
     public static bool gameOver = false;
     public static bool gameStarted = false;
+    public static bool reset = false;
     private bool onMenu = true;
     // Start is called before the first frame update
     void Start()
@@ -26,18 +27,31 @@ public class GameBehaviour : MonoBehaviour
         {
             backButton.SetActive(false);
         }
-        if (finishedContruction)
+        if (reset)
         {
-            demolitionPercentage = ((float)fallenBricks / (float)TowerGenerator.total);
-            if(demolitionPercentage >= ((float) winConditionPercentage / 100))
+            BallLauncher.ballsThrown = 0;
+            demolitionPercentage = 0f;
+            fallenBricks = 0;
+        }
+        else
+        {
+            if (finishedContruction)
             {
-                gameOver = true;
-                gameScene.SetActive(true);
-                audioSource.Play();
-                winningScene.SetActive(true);
-                return;
+                {
+                    demolitionPercentage = ((float)fallenBricks / (float)TowerGenerator.total);
+                    if (demolitionPercentage >= ((float)winConditionPercentage / 100))
+                    {
+                        gameOver = true;
+                        gameScene.SetActive(false);
+                        audioSource.Play();
+                        winningScene.SetActive(true);
+                        return;
+                    }
+                }
+
             }
         }
+
     }
 
     public void initiateGameUI()
@@ -85,5 +99,14 @@ public class GameBehaviour : MonoBehaviour
     public static void setWinConditionPercentage(float value)
     {
         winConditionPercentage = value;
+    }
+
+    public static void setFinishedConstruction(bool value)
+    {
+        finishedContruction = value;
+    }
+    public void setScore(bool value)
+    {
+        reset = value;
     }
 }

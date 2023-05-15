@@ -24,7 +24,6 @@ public abstract class TowerGenerator : MonoBehaviour
     private int x = 0;
     private int sum = 0;
     private int z = 0;
-
     private bool isOrientedLeftToRight = true;
     private bool isWritingXRow = true;
     private bool secondRow = false;
@@ -54,13 +53,6 @@ public abstract class TowerGenerator : MonoBehaviour
 
     public void generation(int width, int depth, int height)
     {
-        if (total >= (height * (width + depth) * 2))
-        {
-            makeTowerKinematic();
-            GameBehaviour.finishedContruction = true;
-            return;
-        }
-
         if (isWritingXRow)
         {
             if (isInBound(x, width) && isOnFloor())
@@ -182,4 +174,8 @@ public abstract class TowerGenerator : MonoBehaviour
         }
     }
 
+    public void resetBrickPosition()
+    {
+        brickPosition = new Vector3(-1.5f * (width / 2 * scaleX), scaleX / 2, -2 * (depth / 2 * scaleX));
+    }
 }

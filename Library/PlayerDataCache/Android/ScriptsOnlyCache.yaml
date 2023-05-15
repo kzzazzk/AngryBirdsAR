@@ -12,11 +12,18 @@ ScriptsOnlyBuild:
     - TriggerBehaviour
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -41,11 +48,30 @@ ScriptsOnlyBuild:
     - DefaultInitializationErrorHandler
     - DefaultObserverEventHandler
   serializedClasses:
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_GlyphAdjustmentRecord
+    - TMPro.TMP_GlyphPairAdjustmentRecord
+    - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
     UnityEngine.CoreModule:
     - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
     - UnityEngine.Events.PersistentListenerMode
     - UnityEngine.Events.UnityEvent
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
     - UnityEngine.UI.AnimationTriggers
     - UnityEngine.UI.Button/ButtonClickedEvent
@@ -104,6 +130,15 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: GameBehaviour
+    methodName: setFinishedConstruction
+  - assembly: Assembly-CSharp
+    fullTypeName: GameBehaviour
+    methodName: setScore
   - assembly: Assembly-CSharp
     fullTypeName: SquareTowerGenerator
     methodName: setHeightFromInputField
@@ -124,7 +159,7 @@ ScriptsOnlyBuild:
     methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: RectangleTowerGenerator
-    methodName: setDepthFromInputField
+    methodName: setHeightFromInputField
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -136,7 +171,16 @@ ScriptsOnlyBuild:
     methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: RectangleTowerGenerator
-    methodName: setHeightFromInputField
+    methodName: setDepthFromInputField
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: TriggerBehaviour
+    methodName: reset
+  - assembly: Assembly-CSharp
+    fullTypeName: GameBehaviour
+    methodName: setScore
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -167,6 +211,12 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: UnPause
+  - assembly: Assembly-CSharp
+    fullTypeName: RectangleTowerGenerator
+    methodName: resetRectangleTower
+  - assembly: Assembly-CSharp
+    fullTypeName: SquareTowerGenerator
+    methodName: resetSquareTower
   - assembly: Assembly-CSharp
     fullTypeName: GameBehaviour
     methodName: initiateSettingsUI
@@ -199,6 +249,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
     - Class: 65
@@ -230,6 +282,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1984}
     - Class: 114
+      Script: {instanceID: 2242}
+    - Class: 114
       Script: {instanceID: 2636}
     - Class: 114
       Script: {instanceID: 2676}
@@ -250,30 +304,38 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3242}
     - Class: 114
+      Script: {instanceID: 4176}
+    - Class: 114
       Script: {instanceID: 4408}
+    - Class: 114
+      Script: {instanceID: 4560}
     - Class: 114
       Script: {instanceID: 5110}
     - Class: 114
       Script: {instanceID: 5142}
     - Class: 114
-      Script: {instanceID: 5438}
+      Script: {instanceID: 5212}
     - Class: 114
-      Script: {instanceID: 5616}
+      Script: {instanceID: 5440}
     - Class: 114
-      Script: {instanceID: 5994}
+      Script: {instanceID: 5618}
     - Class: 114
-      Script: {instanceID: 6220}
+      Script: {instanceID: 5996}
     - Class: 114
-      Script: {instanceID: 6542}
+      Script: {instanceID: 6222}
     - Class: 114
-      Script: {instanceID: 7710}
+      Script: {instanceID: 6544}
     - Class: 114
-      Script: {instanceID: 7890}
+      Script: {instanceID: 7712}
+    - Class: 114
+      Script: {instanceID: 7892}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
     - Class: 135
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -1580,6 +1642,12 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
+      Hash: b6101eb75b6e03f1ce4e806b72513016
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DemolitionPercentageTextBehaviour
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -2652,6 +2720,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: b6101eb75b6e03f1ce4e806b72513016
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BallsThrownTextBehaviour
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f

@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI; 
+using UnityEngine.UI;
 
 public class RectangleTowerGenerator : TowerGenerator
 {
@@ -16,7 +16,8 @@ public class RectangleTowerGenerator : TowerGenerator
     // Update is called once per frame
     void Update()
     {
-        generation(width,depth,height);
+        generation(width, depth, height);
+        endClause();
     }
 
     public void setWidthFromInputField()
@@ -34,4 +35,28 @@ public class RectangleTowerGenerator : TowerGenerator
         setHeight(int.Parse(heightField.text));
     }
 
+    public void resetRectangleTower()
+    {
+        //if (this.gameObject.transform.childCount > 0)
+        //{
+            foreach (Transform child in towerCard.transform)
+            {
+                GameObject.Destroy(child.gameObject);
+            }
+            resetBrickPosition();
+            GameBehaviour.setFinishedConstruction(false);
+            total = 0;
+            this.gameObject.SetActive(false);
+        //}
+    }
+
+    public void endClause()
+    {
+        if (total >= (height * (width + depth) * 2))
+        {
+            makeTowerKinematic();
+            GameBehaviour.setFinishedConstruction(true);
+            this.gameObject.SetActive(false);
+        }
+    }
 }

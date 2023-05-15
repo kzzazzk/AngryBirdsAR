@@ -28,8 +28,10 @@ public class ScoreTextBehaviour : MonoBehaviour
         {
             demolitionPercentageText.text = " ";
             ballsThrownText.text = " ";
-
         }
 
     }
+
+
+
 }

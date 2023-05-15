@@ -9,6 +9,7 @@ public class SquareTowerGenerator : TowerGenerator
     // Start is called before the first frame update
     void Start()
     {
+        depth = width;
         towerCard = GameObject.Find("SquareTowerCard");
         base.Start();
     }
@@ -17,6 +18,7 @@ public class SquareTowerGenerator : TowerGenerator
     void Update()
     {
         generation(width, width, height);
+        endClause();
     }
 
     public void setWidthFromInputField()
@@ -29,4 +31,28 @@ public class SquareTowerGenerator : TowerGenerator
         setHeight(int.Parse(heightField.text));
     }
 
+    public void resetSquareTower()
+    {
+        //if (this.gameObject.transform.childCount > 0)
+        //{
+        foreach (Transform child in towerCard.transform)
+        {
+            GameObject.Destroy(child.gameObject);
+        }
+        resetBrickPosition();
+        GameBehaviour.setFinishedConstruction(false);
+        total = 0;
+        this.gameObject.SetActive(false);
+        //}
+    }
+
+    public void endClause()
+    {
+        if (total >= (height * (width + depth) * 2))
+        {
+            makeTowerKinematic();
+            GameBehaviour.setFinishedConstruction(true);
+            this.gameObject.SetActive(false);
+        }
+    }
 }

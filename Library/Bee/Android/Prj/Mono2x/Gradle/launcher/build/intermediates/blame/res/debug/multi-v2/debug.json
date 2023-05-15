@@ -1,25 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\kzzazzk\\Documentos\\AngryBirdsAR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "outputFile": "C:\\Users\\kzzazzk\\Downloads\\AngryBirdsAR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\kzzazzk\\Documentos\\AngryBirdsAR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\kzzazzk\\Downloads\\AngryBirdsAR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
                     "from": {
-                        "startLines": "5,2,7",
-                        "startColumns": "0,0,0",
-                        "startOffsets": "190,53,288",
-                        "endLines": "6,4,10",
-                        "endColumns": "8,8,8",
-                        "endOffsets": "286,188,513"
-                    },
-                    "to": {
-                        "startLines": "11,13,16",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "554,654,792",
-                        "endLines": "12,15,19",
-                        "endColumns": "8,8,8",
-                        "endOffsets": "649,787,1014"
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,101,158,214,263,309",
+                        "endColumns": "45,56,55,48,45,46",
+                        "endOffsets": "96,153,209,258,304,351"
                     }
                 },
                 {
@@ -40,17 +31,26 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\kzzazzk\\Documentos\\AngryBirdsAR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
+                    "source": "C:\\Users\\kzzazzk\\Downloads\\AngryBirdsAR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,101,158,214,263,309",
-                        "endColumns": "45,56,55,48,45,46",
-                        "endOffsets": "96,153,209,258,304,351"
+                        "startLines": "5,2,7",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "190,53,288",
+                        "endLines": "6,4,10",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "286,188,513"
+                    },
+                    "to": {
+                        "startLines": "11,13,16",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "554,654,792",
+                        "endLines": "12,15,19",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "649,787,1014"
                     }
                 },
                 {
-                    "source": "C:\\Users\\kzzazzk\\Documentos\\AngryBirdsAR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\kzzazzk\\Downloads\\AngryBirdsAR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "2,2",
@@ -69,10 +69,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\kzzazzk\\Documentos\\AngryBirdsAR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\debug\\values-v28_values-v28.arsc.flat",
+            "outputFile": "C:\\Users\\kzzazzk\\Downloads\\AngryBirdsAR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\debug\\values-v28_values-v28.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\kzzazzk\\Documentos\\AngryBirdsAR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values-v28\\styles.xml",
+                    "source": "C:\\Users\\kzzazzk\\Downloads\\AngryBirdsAR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values-v28\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "0",
@@ -93,25 +93,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\kzzazzk\\Documentos\\AngryBirdsAR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\debug\\values-v30_values-v30.arsc.flat",
+            "outputFile": "C:\\Users\\kzzazzk\\Downloads\\AngryBirdsAR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\debug\\values-v21_values-v21.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\kzzazzk\\Documentos\\AngryBirdsAR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\debug\\values-v30\\values-v30.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,129,201,266,325",
-                        "endColumns": "73,71,64,58,60",
-                        "endOffsets": "124,196,261,320,381"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\kzzazzk\\Documentos\\AngryBirdsAR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\debug\\values-v21_values-v21.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\kzzazzk\\Documentos\\AngryBirdsAR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values-v21\\styles.xml",
+                    "source": "C:\\Users\\kzzazzk\\Downloads\\AngryBirdsAR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values-v21\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "0",
@@ -127,6 +112,21 @@
                         "endLines": "3",
                         "endColumns": "8",
                         "endOffsets": "154"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\kzzazzk\\Downloads\\AngryBirdsAR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\res\\merged\\debug\\values-v30_values-v30.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\kzzazzk\\Downloads\\AngryBirdsAR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\debug\\values-v30\\values-v30.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,129,201,266,325",
+                        "endColumns": "73,71,64,58,60",
+                        "endOffsets": "124,196,261,320,381"
                     }
                 }
             ]

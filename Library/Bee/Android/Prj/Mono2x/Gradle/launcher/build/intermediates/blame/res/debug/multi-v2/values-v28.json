@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\kzzazzk\\Documentos\\AngryBirdsAR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
+            "outputFile": "C:\\Users\\kzzazzk\\Downloads\\AngryBirdsAR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\kzzazzk\\Documentos\\AngryBirdsAR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values-v28\\styles.xml",
+                    "source": "C:\\Users\\kzzazzk\\Downloads\\AngryBirdsAR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values-v28\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "0",

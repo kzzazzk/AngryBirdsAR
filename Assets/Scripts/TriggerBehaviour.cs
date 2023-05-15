@@ -29,4 +29,9 @@ public class TriggerBehaviour : MonoBehaviour
     {
         transform.position += new Vector3(0, scaleY * 2, 0);
     }
+    public void reset()
+    {
+        transform.position = new Vector3(0, scaleY, 0);
+    }
+
 }
